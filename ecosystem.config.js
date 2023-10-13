@@ -1,9 +1,9 @@
 module.exports = {
-    apps: [
-        {
-        name: 'web.lava.5',
-        script: './node_modules/nuxt/bin/nuxt.js',
-        args: 'start'
-        }
-    ]
-}
+	apps: [
+		{
+			name: 'web.reservarh.27',
+			script: './node_modules/nuxt/bin/nuxt.js',
+			args: 'start',
+		},
+	],
+};
