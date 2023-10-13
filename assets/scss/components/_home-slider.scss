@@ -1,0 +1,114 @@
+// Styling the default Slick dots
+.home {
+	.slick-slider {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin: 0 auto;
+		position: static;
+		height: 100%;
+		align-items: center;
+		position: relative;
+	}
+
+	.slick-dots {
+		// background-color: orange;
+		z-index: 20;
+		display: flex !important;
+		margin: 0;
+		padding: 2rem 0;
+		list-style-type: none;
+		width: 100%;
+		// height: auto;
+		position: absolute;
+		justify-content: center;
+		align-items: flex-end;
+		// top: 0;
+		left: 0;
+		right: 0;
+		bottom: 10px;
+
+		li {
+			margin: 10px;
+		}
+
+		button {
+			display: block;
+			width: 10px;
+			height: 10px;
+			padding: 0;
+			background: transparent !important;
+			border-radius: 100%;
+			background-color: transparent;
+			text-indent: -9999px;
+			border: 2px solid #fff;
+		}
+
+		li.slick-active button {
+			background-color: #fff !important;
+		}
+	}
+
+	.custom-arrow {
+		height: 30px !important;
+		width: 30px !important;
+		position: absolute !important;
+		position: absolute !important;
+		top: auto !important;
+		bottom: 10px !important;
+
+		svg {
+			height: 15px !important;
+			width: 15px !important;
+		}
+	}
+
+	.custom-arrow.slick-arrow.slick-next {
+		height: 30px !important;
+		width: 30px;
+		right: 25% !important;
+	}
+	.custom-arrow.slick-arrow.slick-prev {
+		height: 30px !important;
+		width: 30px;
+		left: 25% !important;
+	}
+}
+
+@media screen and (min-width: $sm) {
+	.home {
+		.custom-arrow.slick-arrow.slick-next {
+			right: 32% !important;
+		}
+		.custom-arrow.slick-arrow.slick-prev {
+			left: 32% !important;
+		}
+		.slick-dots {
+			button {
+				display: block;
+				width: 12px;
+				height: 12px;
+			}
+		}
+	}
+}
+@media screen and (min-width: $md) {
+	.home {
+		.custom-arrow.slick-arrow.slick-next {
+			right: 37% !important;
+		}
+		.custom-arrow.slick-arrow.slick-prev {
+			left: 37% !important;
+		}
+	}
+}
+@media screen and (min-width: $lg) {
+	.home {
+		.custom-arrow.slick-arrow.slick-next {
+			right: 40% !important;
+		}
+		.custom-arrow.slick-arrow.slick-prev {
+			left: 40% !important;
+		}
+	}
+}

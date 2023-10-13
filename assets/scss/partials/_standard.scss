@@ -1,0 +1,114 @@
+// .v-text-field,
+// .v-input.v-textarea {
+//   // min-height: 20px !important;
+//   .v-input__control {
+//     // min-height: 20px !important;
+//     .v-input__slot {
+//       // height: 20px !important;
+//       input,
+//       textarea {
+//         &::placeholder {
+//           font-size: 15px;
+//           color: #272727;
+//           font-family: "Roboto";
+//         }
+//       }
+//     }
+//   }
+// }
+
+.scale:hover {
+	transform: scale(1.1);
+	-webkit-transition: transform 0.5s ease-out;
+	-moz-transition: transform 0.5s ease-out;
+	-o-transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out;
+}
+.scale-1-5:hover {
+	transform: scale(1.5);
+	-webkit-transition: transform 0.5s ease-out;
+	-moz-transition: transform 0.5s ease-out;
+	-o-transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out;
+}
+// .v-text-field__slot {
+// 	input {
+// 		color: #f5f5f5 !important;
+// 		border-color: red !important;
+// 	}
+// }
+
+// .theme--light.v-text-field--solo > .v-input__control > .v-input__slot {
+// 	border-color: red !important;
+// }
+
+.v-text-field--outlined fieldset,
+.v-text-field--outlined fieldset {
+	border-width: 2px !important;
+}
+
+.contact-form {
+	.v-text-field .v-input__control .v-input__slot {
+		border-radius: 16px !important;
+	}
+}
+.v-text-field .v-input__control .v-input__slot {
+	min-height: auto !important;
+	display: flex !important;
+	align-items: center !important;
+	// border-radius: 16px !important;
+	.fieldset {
+	}
+
+	input,
+	textarea {
+		&::placeholder {
+			font-weight: 300;
+			font-size: 18px;
+			line-height: 174.69%;
+			letter-spacing: 0.025em;
+			color: $black;
+		}
+	}
+}
+
+p {
+	margin-bottom: 0;
+}
+
+// close popover
+// button#popover,
+// button#cart,
+// button#menu,
+// button#search {
+//   .v-btn__content {
+//     pointer-events: none !important;
+//   }
+//   span {
+//     pointer-events: none !important;
+//   }
+//   img {
+//     pointer-events: none !important;
+//   }
+// }
+
+.service {
+	.v-slide-group__prev.v-slide-group__prev--disabled {
+		display: none !important;
+	}
+	.v-slide-group__prev {
+		display: none !important;
+	}
+	.v-tab {
+		// border-bottom: 2px solid transparent !important;
+		border-bottom: none !important;
+	}
+	.v-tab--active {
+		.card-service {
+			border: 3px solid $primary !important;
+		}
+	}
+}
+
+@media screen and (min-width: $sm) {
+}

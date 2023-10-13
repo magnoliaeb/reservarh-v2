@@ -1,0 +1,11 @@
+.v-breadcrumbs {
+	.v-breadcrumbs__item {
+		font-weight: 400 !important;
+		font-size: $fs-lg !important;
+		color: #1d1d1d !important;
+	}
+	.v-breadcrumbs__item--disabled {
+		font-size: $fs-xl !important;
+		color: $primary !important;
+	}
+}
